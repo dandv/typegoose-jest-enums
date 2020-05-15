@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "outDir": "./dist",
+    "rootDir": "./",
+
+    // For Typegoose decorators like @prop()
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+  }
+}

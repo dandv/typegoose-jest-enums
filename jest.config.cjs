@@ -1,4 +1,5 @@
 module.exports = {
+  preset: 'ts-jest',
   testEnvironment: 'node',
   // Test only TypeScript files, not also any generated .js.
   testMatch: [
